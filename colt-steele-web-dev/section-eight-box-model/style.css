@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #e59985;
+}
+
+span {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  background-color: blueviolet;
+  width: 100px;
+  padding-left: 300px;
+  padding-top: 50px;
+  margin: 0;
+}
+
+#one {
+  background-color: pink;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  /* The below rule resizes the content-box based on border */
+  /* box-sizing: border-box; */
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+#two {
+  background-color: red;
+  border-color: papayawhip;
+  border-left-color: royalblue;
+  border-width: 5px;
+  border-style: inset;
+  padding-right: 50px;
+  margin: 200px;
+}
+
+#three {
+  background-color: aquamarine;
+  /* Border Shorthand syntax */
+  /* Width | Style | Color */
+  border: 5px solid seagreen;
+  border-radius: 10%;
+}
+
+#circle {
+  background-color: royalblue;
+  border: 5px solid royalblue;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+/* Padding shorthand property guidelines */
+/* vertical | horizontal */
+/* top | right | bottom | left */
+
+button {
+  padding: 10px 20px 30px 40px;
+}
