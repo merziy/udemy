@@ -1,0 +1,134 @@
+/* Universal Selector */
+/* * {
+  background-color: cyan;
+} */
+
+/* Element Selector */
+button {
+  font-size: 30px;
+  background-color: #a8dadc;
+}
+
+body {
+  background-color: #f1faee;
+}
+
+span {
+  color: #457b9d;
+}
+
+/* Selector List */
+h1,
+h2 {
+  color: #1d3557;
+}
+
+/* ID Selector */
+#signup {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+/* Class Selector */
+.tag {
+  background-color: #e63946;
+  color: #f1faee;
+  font-size: 16px;
+}
+
+/* Descendent Selector */
+.post a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #457b9d;
+}
+
+footer a {
+  color: #e63946;
+}
+
+/* Adjacent Selector/Combinator */
+
+/* input + button {
+  background-color: pink;
+} */
+
+h2 + button {
+  font-size: 20px;
+  /* background-color: magenta; */
+}
+
+/* Direct Descendent Selector */
+footer > a {
+  color: #a8dadc;
+}
+
+/* Attribute Selector */
+input[type="password"] {
+  color: greenyellow;
+}
+
+/* section[class="post"] {
+  background-color: purple;
+} */
+
+/* section.post {
+  background-color: #1d3557;
+} */
+
+/* a[href*="google"] {
+  color: magenta;
+} */
+
+/* 
+a[href$=".com"] {
+  color: grey;
+} */
+
+/* Psuedo-Classes */
+.post button:hover {
+  background-color: #e63946;
+  color: #f1faee;
+}
+
+.post button:active {
+  background-color: #02c39a;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+/* nth of type */
+.post:nth-of-type(2n) {
+  background-color: #dfe8dc;
+}
+
+/* Pseudo Elements */
+h2::first-letter {
+  font-size: 50px;
+}
+
+p::first-line {
+  color: purple;
+}
+
+p::selection {
+  background-color: #fcbf49;
+}
+
+/* Specificity Exercise */
+
+/* The more specific a selector is, the higher priority its 
+rules are to be declared. i.e., a ID's rules will be applied
+even if the element has a class with conflicting rules as well */
+
+/* !important > inline > id > class/attribute/peudo-class > element/pseudo-element */
+
+/* button:hover {
+  background-color: olive;
+} */
+
+/* button {
+  background-color: #02c39a !important;
+} */
