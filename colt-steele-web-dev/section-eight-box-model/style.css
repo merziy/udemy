@@ -1,3 +1,9 @@
+/* Sets the root font-size */
+
+html {
+  font-size: 10px;
+}
+
 body {
   margin: 0;
 }

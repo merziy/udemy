@@ -1,0 +1,38 @@
+h1 {
+  background-color: palegoldenrod;
+  border: 1px solid green;
+}
+
+/* span {
+  background-color: paleturquoise;
+  border: 1px solid black;
+} */
+
+span {
+  background-color: palevioletred;
+  border: 1px solid black;
+  width: 500px;
+  padding: 10px;
+}
+
+/* If an element is set to inline, 
+width/height,etc is ignored. Padding is 
+not. With respect to inline elements, it affects 
+surrounding elements in different ways. */
+
+/* When dealing with block elements, width, 
+height, size, padding is respected.  */
+
+/* Inline-block elements behave like inline
+elements, with the exception that width,
+height, margin, and padding are respected. */
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: antiquewhite;
+  border: 5px solid gainsboro;
+  display: inline-block;
+}
+
+/* Display none will hide the element */

@@ -1,0 +1,61 @@
+section {
+  background-color: aqua;
+  width: 800px;
+  height: 800px;
+}
+
+div {
+  background-color: blueviolet;
+  /* The below two rules are saying that I want the 
+  element to be 50% of the width of its parent */
+  width: 50%;
+  height: 50%;
+}
+
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  /* The below rule is saying that I want the element
+  to be 200% of the element itself (which is set)
+  from the font-size */
+  line-height: 200%;
+}
+
+h2 {
+  /* The font size is doubling the size of its parent,
+  which is the 30px in the article element */
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+article {
+  font-size: 15px;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+/* With Pixels, it's harder for content to 
+proportionately scale. With em/rem, this is 
+much more effective. */
+
+button {
+  font-size: 1em;
+  padding: 0 1em;
+  border-radius: 0.5em;
+  background-color: antiquewhite;
+}
+
+/* Because EMs are set to the font size of their 
+immediate parent, they can stack and cause
+issues. REMs are sets to the font-size of the
+root html element */
+
+ul {
+  font-size: 1rem;
+}
