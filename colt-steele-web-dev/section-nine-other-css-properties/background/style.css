@@ -1,0 +1,17 @@
+section {
+  width: 80%;
+  height: 800px;
+  /* background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
+  background-position: bottom; */
+  background: no-repeat bottom / 70% url("https://source.unsplash.com/random"),
+    lightsalmon;
+  /* size has to come after position, seperated
+  by a '/' */
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+}

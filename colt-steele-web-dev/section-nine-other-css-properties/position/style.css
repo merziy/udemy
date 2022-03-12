@@ -1,0 +1,61 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: #3d405b;
+  border: 2px solid black;
+  margin: 10px;
+  display: inline-block;
+}
+
+#middle {
+  background-color: #81b29a;
+}
+
+/* By default, the position is static, the 
+element 'goes with the normal flow' of the
+document. 
+
+With relative, the element can be
+offset relative-to-itself, that is, from its
+own position, based on the values of top, 
+right, bottom and left. 
+
+With Absolute, the element is removed from
+the normal flow, and no space is created for
+the element in the page layout, in the normal
+layout of the document. It is positioned to its
+closest positioned ancestor.
+
+With Fixed, the element is removed from
+the normal flow, and no space is created for
+the element in the page layout. The element is 
+relative to the contaning block.  
+
+Sticky begins as static, but becomes fixed as
+the user scrolls down*/
+
+#static #middle {
+  position: static;
+}
+
+#relative #middle {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+#absolute {
+  position: relative;
+}
+
+#absolute #middle {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+#fixed #middle {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
