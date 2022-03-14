@@ -1,0 +1,109 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Flexbox responsively resizes content */
+
+/* Flex basis defines the size of an element before additional space is made.
+Flex grow controls the amount of space an element should take up.
+Flex shrink will shrink items if they are larger than their container. */
+
+/* Justify content aligns items upon the main/horizontal/x axis, 
+align-items aligns along the cross/y/vertical axis */
+
+#container {
+  display: flex;
+  background-color: #003049;
+  width: 90%;
+  /* height: 500px; */
+  margin: 0 auto;
+  border: 5px solid #003049;
+  /* Space around, space between, space evenly, center */
+  /* justify-content: space-around; */
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-content: space-between; */
+  /* Wrap, nowrap, wrap-reverse */
+  /* flex-wrap: wrap; */
+}
+
+/* Flex shorthand */
+/* Keyword values
+flex: auto;
+flex: initial;
+flex: none;
+
+/* One value, unitless number: flex-grow
+flex-basis is then equal to 0. */
+/* flex: 2; */
+
+/* One value, width/height: flex-basis */
+/* flex: 10em;
+flex: 30%;
+flex: min-content; */
+
+/* Two values: flex-grow | flex-basis */
+/* flex: 1 30px; */
+
+/* Two values: flex-grow | flex-shrink */
+/* flex: 2 2; */
+
+/* Three values: flex-grow | flex-shrink | flex-basis */
+/* flex: 2 2 10%; */
+
+/* Global values */
+/* flex: inherit;
+flex: initial;
+flex: revert; 
+flex: unset; */
+
+#container div {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  /* flex-basis: 400px; */
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  border: 5px solid black;
+  height: 500px;
+  display: flex;
+}
+
+main .sidebar {
+  background-color: aquamarine;
+  border: 1em solid white;
+  flex: 1 2 250px;
+}
+
+main .maincontent {
+  background-color: tomato;
+  border: 1em solid white;
+  flex: 2 800px;
+}
+
+/* div:nth-of-type(1) {
+  flex-grow: 1;
+} */
+
+/* div:nth-of-type(3) {
+  align-self: flex-start;
+}
+
+div:nth-of-type(4) {
+  align-self: center;
+}
+
+div:nth-of-type(5) {
+  align-self: flex-start;
+} */
