@@ -18,8 +18,8 @@ CSS (Cascading Style Sheets) is a styling language used to style the structure (
 
 #### CSS Topics
 
-Color systems, text-properties, proper inline and external syntax, psuedo-classes, selectors, psuedo-elements, cascading (the order stylesheets and rules are declared in matters,) specificity, !important, inheritance (child elements will normally inherit rules set for their parents,) box-model (content-box, padding, border, margin,) CSS units, display properties, position, transitions, transform, flexbox, media queries, frameworks,
+Color systems, text-properties, proper inline and external syntax, psuedo-classes, selectors, psuedo-elements, cascading (the order stylesheets and rules are declared in matters,) specificity, !important, inheritance (child elements will normally inherit rules set for their parents,) box-model (content-box, padding, border, margin,) CSS units, display properties, position, transitions, transform, flexbox, media queries, frameworks (Bootstrap)
 
-#### Frameworks
+### JavaScript
 
-Bootstrap
+HTML/CSS/JS are the three languages that a web browser can understand. It is a programming language and can manipulate HTML and CSS elements. Fundamental Primitive types include Number, String, Boolean, Null, and Undefined. Variables are labels for values. 
