@@ -22,4 +22,4 @@ Color systems, text-properties, proper inline and external syntax, psuedo-classe
 
 ### JavaScript
 
-HTML/CSS/JS are the three languages that a web browser can understand. It is a programming language and can manipulate HTML and CSS elements. Fundamental Primitive types include Number, String, Boolean, Null, and Undefined. Variables are labels for values. 
+HTML/CSS/JS are the three languages that a web browser can understand. It is a programming language and can manipulate HTML and CSS elements. Fundamental Primitive types include Number, String, Boolean, Null, and Undefined. Variables are labels for values. Methods, Data Structures (Arrays, Object Literals,) functions, logic, ES6 syntax, the DOM, manipulating HTML/CSS with JavaScript, 
